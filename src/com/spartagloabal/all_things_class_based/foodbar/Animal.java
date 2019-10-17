@@ -1,19 +1,24 @@
-package com.spartagloabal.all_things_class_based;
+package com.spartagloabal.all_things_class_based.foodbar;
+// polymorphism is a class that can take many form: like animal can be cat and take on new behaviours
 
 public class Animal {
 
     private int numOfLegs;
+    private String mouth;
+    private int numOfEyes;
 
-    public Animal(int numOfLegs){
+    public Animal(int numOfLegs, String mouth, int numOfEyes){
+        this.mouth = mouth;
+        this.numOfEyes = numOfEyes;
         this.numOfLegs = numOfLegs;
     }
-    
+
     public void breathe(){
         System.out.println("in and out");
     }
 
     public void eat(){
-        System.out.println("in and out");
+        System.out.println("goes in and goes out");
     }
 
     public void sleep(){

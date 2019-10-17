@@ -1,6 +1,7 @@
 package com.spartagloabal.all_things_class_based.foodbar;
 // polymorphism is a class that can take many form: like animal can be cat and take on new behaviours
-
+// inheritance animals has behaviours and can be extends them to other class such as Mammals and Bipeds
+// encapsulating are getter/setter, public/private
 public class Animal {
 
     private int numOfLegs;
